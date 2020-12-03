@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+
+
+html,
+body,
+#root {
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+      background-color: #ff4d5a !important;
+      border-radius: 0% !important;
+      width: 50px !important;
+      height: 4px !important;
+}
+
+#fp-nav ul li {
+      margin-bottom: 25px !important;
+}
+
+#fp-nav ul li:hover a.active span,
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li:hover a.active span,
+.fp-slidesNav ul li a.active span {
+      width: 75px !important;
+      margin: 0px !important;
+}
+
+
+
+.backgroundContainer {
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      display: flex;
+      background-image: linear-gradient(
+            to bottom,
+            #072142,
+            #061c37,
+            #07182b,
+            #061220,
+            #020b16
+      );
+      background-size: 100%;
+      z-index: -200;
+}
+
+.navTopContainer{
+      width: 100%;
+      height: 7vh;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+}
+.nombreApellido{
+      color: white;
+      z-index: 200;
+      font-family: Lato;
+      font-size: 35px;
+      letter-spacing: 3px;
+      position: absolute;
+      top: 2%;
+      left: 5%;
+}
+
+
+.starsBackground {
+      height: 100vh;
+      width: 140%;
+      background-repeat: repeat;
+}
+.backgroundImage {
+      height: 100vh;
+      width: 100%;
+      position: absolute;
+      top: 15vh;
+      left: 47%;
+}
