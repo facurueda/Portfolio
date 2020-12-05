@@ -6,6 +6,7 @@ import HomeImg from "../components/HomeImg";
 import Page1 from "./Page1";
 import anime from "animejs/lib/anime.es.js";
 import Page2 from "./Page2";
+import Page3 from "./Page3";
 // import ReactFullpage from '../../../components';
 
 const SEL = "section";
@@ -15,7 +16,7 @@ const FullPage = () => {
       const PAGES = [
             { page: <Page1/> },
             { page: <Page2/> },
-            { page: <div></div> },
+            { page: <Page3/> },
       ];
 
       const [fullpages, setFullPages] = useState(PAGES);
@@ -83,7 +84,7 @@ const FullPage = () => {
                         opacity:1 ,
                   });
             }
-             if(destination.index === 1){
+            if(destination.index === 1){
                   anime({
                         targets: [
                               ".ecommerceImg",
@@ -172,6 +173,81 @@ const FullPage = () => {
                               ".btnProyectos",
                               ".linea1Page2",
                               ".linea2Page2"
+                        ],
+                        direction: "normal",
+                        easing: "linear",
+                        duration: 200,
+                        translateX:["0", "-100%"],
+                        opacity:0 ,
+                  });
+            }
+            if(destination.index === 2){
+                  anime({
+                        targets: [
+                              '.ImagenCurriculum'
+                        ],
+      
+                        direction: "reverse",
+                        easing: "linear",
+                        duration: 300,
+                        translateX:['0', '200%'],
+                        opacity:[1, 0],
+                        duration:1000,
+                        rotate :['-14deg', '0']
+                  });
+                  anime({
+                        targets: [
+                              '.textContacto',
+                        ],
+                        direction: "normal",
+                        easing: "linear",
+                        delay: 750,
+                        duration: 400,
+                        translateX:["-50%", "10%"],
+                        opacity:[0,1] ,
+                  });
+                  anime({
+                        targets: [
+                              '.linea1Page3',
+                              '.linea2Page3',
+                              '.btnContacto'
+                        ],
+                        direction: "normal",
+                        easing: "linear",
+                        delay: 900,
+                        duration: 400,
+                        translateX:["-10%", "15%"],
+                        opacity:[0,1] ,
+                  });
+            }
+            if(origin.index === 2){
+                  anime({
+                        targets: [
+                              '.ImagenCurriculum'
+                        ],
+      
+                        direction: "normal",
+                        easing: "linear",
+                        duration: 500,
+                        translateX:['0', '200%'],
+                        opacity:[0,1],
+                        // rotate :['-14deg', '0']
+                  });
+                  anime({
+                        targets: [
+                              '.textContacto',
+                        ],
+                        direction: "normal",
+                        easing: "linear",
+                        duration: 500,
+                        translateX:["0", "-100%"],
+                        opacity:0 ,
+                  });
+                  anime({
+                        targets: [
+                              '.linea1Page3',
+                              '.linea2Page3',
+                              '.btnContacto'
                         ],
                         direction: "normal",
                         easing: "linear",

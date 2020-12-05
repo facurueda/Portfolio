@@ -1,9 +1,7 @@
-import React, { useEffect } from "react";
-import anime from "animejs/lib/anime.es.js";
+import React from "react";
 import Ecommerce from "../assets/Ecommerce.png";
 import FoodApp from "../assets/FoodApp.png";
 import WeatherApp from "../assets/WeatherApp.png";
-import ParallaxMousemove from "react-parallax-mousemove";
 import { useHistory } from "react-router-dom";
 
 const Page2 = () => {
@@ -23,7 +21,6 @@ const Page2 = () => {
                         </button>
                   </div>
                   <div className="imagenPage2">
-                        <div className="testCrop"></div>
                         <img src={Ecommerce} alt="" className="ecommerceImg" />
                         <img src={FoodApp} alt="" className="foodAppImg" />
                         <img
