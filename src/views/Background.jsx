@@ -6,10 +6,6 @@ import ParallaxMousemove from "react-parallax-mousemove";
 const Background = () => {
       return (
             <div className="backgroundContainer">
-                  <div className="navTopContainer">
-                        <a className="nombreApellido">Facundo Rueda</a>
-
-                  </div>
                   <ParallaxMousemove>
                         <ParallaxMousemove.Layer
                               layerStyle={{
