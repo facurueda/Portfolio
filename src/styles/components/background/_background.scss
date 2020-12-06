@@ -65,7 +65,14 @@ body,
       top: 2%;
       left: 5%;
 }
-
+.testImgBackground{
+      height: 100vh;
+      width: 350%;
+      padding-bottom: 25vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
 
 .starsBackground {
       height: 100vh;
@@ -75,7 +82,9 @@ body,
 .backgroundImage {
       height: 100vh;
       width: 100%;
-      position: absolute;
-      top: 15vh;
-      left: 47%;
+
+}
+.imageInBackground{
+      width: 40vw;
+      margin-bottom: 15vw;
 }

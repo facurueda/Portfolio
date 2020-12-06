@@ -42,13 +42,31 @@ const HomeImg = () => {
 
       return (
             <div className="HomeImgContainer">
-                  <img src={Persona} alt="img" className="homePersona" />
-                  <img src={Pantalla} alt="img" className="homePantalla" />
-                  <img src={Engranaje} alt="img" className="homeEngranaje1" />
-                  <img src={Engranaje} alt="img" className="homeEngranaje2" />
-                  <img src={Code} alt="img" className="homeCode" />
-                  <img src={TextLeft} alt="img" className="homeTextLeft" />
-                  <img src={TextTop} alt="img" className="homeTextTop" />
+                  <div className="imgContainer">
+                        <img src={Persona} alt="img" className="homePersona" />
+                        <img
+                              src={Pantalla}
+                              alt="img"
+                              className="homePantalla"
+                        />
+                        <img
+                              src={Engranaje}
+                              alt="img"
+                              className="homeEngranaje1"
+                        />
+                        <img
+                              src={Engranaje}
+                              alt="img"
+                              className="homeEngranaje2"
+                        />
+                        <img src={Code} alt="img" className="homeCode" />
+                        <img
+                              src={TextLeft}
+                              alt="img"
+                              className="homeTextLeft"
+                        />
+                        <img src={TextTop} alt="img" className="homeTextTop" />
+                  </div>
             </div>
       );
 };

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
 
 .HomeTextContainer{
-      width: 40%;
+      width: 50%;
       height: 100vh;
       display: flex;
       justify-content: center;
@@ -10,32 +10,26 @@
 }
 
 #FirstLastName{
-      position: absolute;
-      top: 32%;
-      left: 15%;
+      width: 25vw;
 }
 
 .fullStack{
       font-family: Lato;
-      font-size: 30px;
+      font-size: 2vw;
       color: white;
-      position: absolute;
-      top: 56%;
-      left: 17.5%;
+      margin-top: 1.5vw;
+      margin-bottom: 1.5vw;
 }
 .lineaRoja1{
-      width: 275px;
+      width: 16vw;
       border: #ff4d5a 4px solid;
       border-radius: 5px;
-      position: absolute;
-      top: 65%;
-      left: 17%;
+      margin-left: -5vw;
+      margin-bottom: .5vw;
 }
 .lineaRoja2{
-      width: 275px;
+      width: 16vw;
       border: #ff4d5a 4px solid;
       border-radius: 5px;
-      position: absolute;
-      top: 67%;
-      left: 20%;
+      margin-right: -5vw;
 }

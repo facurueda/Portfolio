@@ -26,7 +26,7 @@ const Background = () => {
                         <div className="backgroundImage">
                               <ParallaxMousemove.Layer
                                     layerStyle={{
-                                          position: "absolute",
+                                          position: "relative",
                                           height: "100vh",
                                     }}
                                     config={{
@@ -38,11 +38,13 @@ const Background = () => {
                                           },
                                     }}
                               >
-                                    <img
-                                          src={backgroundImage}
-                                          alt="fondo"
-                                          className="imageInBackground"
-                                    />
+                                    <div className="testImgBackground">
+                                          <img
+                                                src={backgroundImage}
+                                                alt="fondo"
+                                                className="imageInBackground"
+                                          />
+                                    </div>
                               </ParallaxMousemove.Layer>
                         </div>
                   </ParallaxMousemove>
