@@ -2,11 +2,11 @@ import React from "react";
 import GitHubLogo from "../assets/github.svg";
 import WebPageLogo from "../assets/webpage.svg";
 
-const Proyectcard = (props) => {
+const CardProject = (props) => {
       const { nombre, imagen, texto, github, webPage } = props;
 
       return (
-            <div className="proyectCardContainer">
+            <div className="CardProjectContainer">
                   <div className="imagenCardContainer">
                         <img
                               src={imagen}
@@ -34,4 +34,4 @@ const Proyectcard = (props) => {
       );
 };
 
-export default Proyectcard;
+export default CardProject;

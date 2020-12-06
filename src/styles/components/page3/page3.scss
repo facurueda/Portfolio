@@ -2,6 +2,8 @@
       width: 100%;
       height: 100vh;
       display: flex;
+      flex-direction: column-reverse;
+      overflow: hidden;
 }
 .textoBotonesPage3{
       height: 100vh;
@@ -13,26 +15,35 @@
 }
 .textContacto{
       color: white;
-      font-size: 5vw;
+      font-size: 7vw;
       margin-left: 5vw;
       font-family: Lato;
       letter-spacing: 5px;
       text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
       margin-bottom: 1vw;
+      position: relative;
+      left: -25vw;
+      top: -15vw;
 }
 .linea1Page3 {
-      width: 20.83vw;
-      border: #ff4d5a 4px solid;
+      width: 38vw;
+      border-top: #ff4d5a 1.3vw solid;
       border-radius: 5px;
-      margin-left: 2vw;
-      margin-bottom: .5vw;
+      // margin-left: -20vw;
+      margin-bottom: 1vw;
+      position: relative;
+      left: -25vw;
+      top: -15vw;
 }
 .linea2Page3 {
-      width: 20.83vw;
-      border: #ff4d5a 4px solid;
+      width: 38vw;
+      border-top: #ff4d5a 1.3vw solid;
       border-radius: 5px;
-      margin-left: 7vw;
-      margin-bottom: .5vw;
+      margin-left: -20vw;
+      margin-bottom: 1vw;
+      position: relative;
+      left: -11vw;
+      top: -14.5vw;
 }
 .btnContacto{
       background-color: #ff4d5a;
@@ -40,11 +51,11 @@
       border-radius: 50px;
       color: white;
       font-family: Lato;
-      font-size: 1.7vw;
-      width: 25vw;
-      height: 4vw;
-      margin-top: 3vw;
-      margin-left: 2.5vw;
+      font-size: 3vw;
+      width: 45vw;
+      height: 7vw;
+      margin-top: -5vw;
+      margin-left: -10vw;
       cursor: pointer;
       transition: 250ms;
       z-index: 25;
@@ -56,18 +67,18 @@
 
 }
 
-.curriculumContainer{
-      height: 100vh;
-      width: 80%;
-      overflow: hidden;
-}
+// .curriculumContainer{
+//       height: 100vh;
+//       width: 80%;
+//       overflow: hidden;
+// }
 
 .ImagenCurriculum{
-      height: 125vh;
+      height: 100vw;
       filter: grayscale(100%);
       position: relative;
-      top: -125px;
-      left: 150px;
+      top: -20vw;
+      left: 20vw;
       transition: 300ms;
 
 }

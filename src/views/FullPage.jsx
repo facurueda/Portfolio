@@ -193,7 +193,7 @@ const FullPage = () => {
                         translateX:['0', '200%'],
                         opacity:[1, 0],
                         duration:1000,
-                        rotate :['-14deg', '0']
+                        rotate :['-25deg', '0']
                   });
                   anime({
                         targets: [

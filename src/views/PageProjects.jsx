@@ -5,7 +5,7 @@ import Auth0 from "../assets/icons/auth0.png";
 import Mongo from "../assets/icons/mongodb.png";
 import Redis from "../assets/icons/redis.png";
 import Sequelize from "../assets/icons/sequelize.png";
-import Proyectcard from "../components/ProyectCard";
+import CardProject from "../components/CardProject";
 import Axios from "../assets/icons/Axios.png";
 import Bootstrap from "../assets/icons/Bootstrap.png";
 import Css from "../assets/icons/css.png";
@@ -18,7 +18,7 @@ import Redux from "../assets/icons/redux.png";
 import ButtonBack from "../assets/buttonBack.svg";
 import { useHistory } from "react-router-dom";
 
-const PageProyects = () => {
+const PageProjects = () => {
       const history = useHistory();
 
       const tecnologias = [
@@ -47,7 +47,7 @@ const PageProyects = () => {
                   duration: 2000,
             });
             anime({
-                  targets: ".proyectCardsContainer",
+                  targets: ".CardsProjectsContainer",
                   direction: "normal",
                   easing: "easeInOutQuad",
                   translateY: ["-50%", "0"],
@@ -55,7 +55,7 @@ const PageProyects = () => {
                   duration: 2000,
             });
             anime({
-                  targets: ".buttonBackProyects",
+                  targets: ".buttonBackProjects",
                   direction: "reverse",
                   easing: "easeInOutQuad",
                   translateX: "100%",
@@ -65,16 +65,18 @@ const PageProyects = () => {
       }, []);
 
       return (
-            <div className="pageProyectsContent">
-                  <img
-                        src={ButtonBack}
-                        className="buttonBackProyects"
-                        onClick={history.goBack}
-                  />
-                  <div className="proyectCardsContainer">
+            <div className="pageProjectsContent">
+                  <header className="headerProjects">
+                        <img
+                              src={ButtonBack}
+                              className="buttonBackProjects"
+                              onClick={history.goBack}
+                        />
+                  </header>
+                  <main className="CardsProjectsContainer">
                         {PROYECTOS.map((e) => {
                               return (
-                                    <Proyectcard
+                                    <CardProject
                                           nombre={e.nombre}
                                           imagen={e.imagen}
                                           texto={e.texto}
@@ -83,8 +85,8 @@ const PageProyects = () => {
                                     />
                               );
                         })}
-                  </div>
-                  <div className="tecnologiasContainer">
+                  </main>
+                  <footer className="tecnologiasContainer">
                         {tecnologias.map((elem) => {
                               return (
                                     <img
@@ -93,9 +95,9 @@ const PageProyects = () => {
                                     />
                               );
                         })}
-                  </div>
+                  </footer>
             </div>
       );
 };
 
-export default PageProyects;
+export default PageProjects;

@@ -4,6 +4,11 @@ const Page3 = () => {
       return (
             <div className="page3Container">
                   <div className="textoBotonesPage3">
+                        <img
+                              src={Curriculum}
+                              className="ImagenCurriculum"
+                              alt="cv"
+                        />
                         <label className="textContacto">CONTACTO</label>
                         <span className="linea1Page3" />
                         <span className="linea2Page3" />
@@ -17,13 +22,6 @@ const Page3 = () => {
                         >
                               DESCARGAR CURRICULUM
                         </button>
-                  </div>
-                  <div className="curriculumContainer">
-                        <img
-                              src={Curriculum}
-                              className="ImagenCurriculum"
-                              alt="cv"
-                        />
                   </div>
             </div>
       );

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.scss";
 import Background from "./views/Background";
 import FullPage from "./views/FullPage";
-import PageProyects from "./views/PageProyects";
+import PageProjects from "./views/PageProjects";
 
 function App() {
       return (
@@ -11,7 +11,7 @@ function App() {
                   <Background/>
                   <Switch>
                         <Route path='/' exact component={FullPage}/>
-                        <Route path='/Proyects' component={PageProyects}/>
+                        <Route path='/Projects' component={PageProjects}/>
 
                   </Switch>
             </Router>

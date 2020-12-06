@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap");
 
 html,
 body,
@@ -13,8 +12,8 @@ body,
 .fp-slidesNav ul li a span {
       background-color: #ff4d5a !important;
       border-radius: 0% !important;
-      width: 50px !important;
-      height: 4px !important;
+      width: 5vw !important;
+      height: 0.3vw !important;
 }
 
 #fp-nav ul li {
@@ -25,11 +24,9 @@ body,
 #fp-nav ul li a.active span,
 .fp-slidesNav ul li:hover a.active span,
 .fp-slidesNav ul li a.active span {
-      width: 75px !important;
+      width: 7vw !important;
       margin: 0px !important;
 }
-
-
 
 .backgroundContainer {
       height: 100vh;
@@ -48,43 +45,30 @@ body,
       z-index: -200;
 }
 
-.navTopContainer{
-      width: 100%;
-      height: 7vh;
-      z-index: 10;
-      display: flex;
-      align-items: center;
-}
-.nombreApellido{
-      color: white;
-      z-index: 200;
-      font-family: Lato;
-      font-size: 35px;
-      letter-spacing: 3px;
-      position: absolute;
-      top: 2%;
-      left: 5%;
-}
-.testImgBackground{
-      height: 100vh;
-      width: 350%;
-      padding-bottom: 25vw;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-}
-
 .starsBackground {
-      height: 100vh;
-      width: 140%;
-      background-repeat: repeat;
+      height: 100%;
+      width: 100%;
 }
 .backgroundImage {
       height: 100vh;
       width: 100%;
-
 }
-.imageInBackground{
+
+// * Pantallas Celulares Verticales * //
+.testImgBackground {
+      height: 100vh;
+      width: 250%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+}
+.imageInBackground {
       width: 40vw;
-      margin-bottom: 15vw;
+      margin-top: 25vw;
+}
+
+.fp-left {
+      top: 85% !important;
+      left: 50% !important;
+      transform: rotate(270deg) !important;
 }

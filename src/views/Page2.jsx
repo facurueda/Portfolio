@@ -15,7 +15,7 @@ const Page2 = () => {
                         <span className="linea2Page2" />
                         <button
                               className="btnProyectos"
-                              onClick={(e) => history.push("/Proyects")}
+                              onClick={(e) => history.push("/Projects")}
                         >
                               VER MÁS
                         </button>
