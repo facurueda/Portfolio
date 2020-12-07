@@ -59,3 +59,28 @@
       z-index: 300;
       cursor: pointer;
 }
+@media only screen and (min-width: 1366px) {
+      .CardProjectContainer {
+            width: 25vw;
+            height: 30vw;
+            justify-content: center;
+      }
+      .imagenProyecto {
+            width: 25vw;
+            height: 15vw;
+      }
+      .textoCardContainer {
+            width: 23vw;
+            height: 13vw;
+      }
+      .nombreProyecto {
+            font-size: 3vw;
+      }
+      .textoProyecto {
+            font-size: 1vw;
+            min-height: 5vw;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            margin-bottom: 0.3vw;
+      }
+}

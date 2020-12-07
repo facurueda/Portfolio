@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap");
 
 // * Pantallas Celulares Verticales * //
-.HomeTextContainer{
+.HomeTextContainer {
       width: 100%;
       height: 100vh;
       display: flex;
@@ -12,27 +11,53 @@
       margin-top: -40vw;
 }
 
-#FirstLastName{
+#FirstLastName {
       width: 50vw;
       height: 35vw;
 }
 
-.fullStack{
+.fullStack {
       font-family: Lato;
       font-size: 4vw;
       color: white;
       margin-bottom: 3vw;
 }
-.lineaRoja1{
+.lineaRoja1 {
       width: 35vw;
       border-top: #ff4d5a 1.3vw solid;
       border-radius: 5px;
       margin-left: -5vw;
       margin-bottom: 1vw;
 }
-.lineaRoja2{
+.lineaRoja2 {
       width: 35vw;
       border-bottom: #ff4d5a 1.3vw solid;
       border-radius: 5px;
       margin-right: -5vw;
+}
+
+// * Pantallas Computadoras * //
+
+@media only screen and (min-width: 1366px) {
+      .HomeTextContainer {
+            height: 170vh;
+            margin-top: 0;
+      }
+      #FirstLastName {
+            width: 35vw;
+            height: 20vw;
+      }
+      .fullStack {
+            font-size: 3vw;
+            margin-bottom: 2vw;
+      }
+      .lineaRoja1 {
+            width: 28vw;
+            border-top: #ff4d5a 0.6vw solid;
+            margin-left: -3vw;
+      }
+      .lineaRoja2 {
+            width: 28vw;
+            border-bottom: #ff4d5a 0.6vw solid;
+      }
 }

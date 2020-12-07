@@ -39,3 +39,12 @@
 .iconoTecnologiaAxios {
       width: 4vw;
 }
+
+@media only screen and (min-width: 1366px) {
+      .CardsProjectsContainer{
+            flex-direction: row;
+      }
+      .buttonBackProjects{
+            margin-top: 5vw;
+      }
+}

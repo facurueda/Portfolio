@@ -15,7 +15,7 @@
       // flex-direction: column;
       // justify-content: center;
       // align-items: center;
-                        // * Pantallas Celulares Verticales * //
+      // * Pantallas Celulares Verticales * //
       height: 100vh;
       width: 100%;
       display: flex;
@@ -78,7 +78,7 @@
       // z-index: 25;
       // overflow: hidden;
       // padding-left: 95vw;
-                  // * Pantallas Celulares Verticales * //
+      // * Pantallas Celulares Verticales * //
       height: 100vh;
       width: 100%;
       display: flex;
@@ -87,7 +87,7 @@
       z-index: 25;
       overflow: hidden;
       // background-color: #ff4d5a;
-      }
+}
 
 .ecommerceImg {
       width: 25vw;
@@ -211,125 +211,165 @@
       transition: 300ms;
 }
 
-                                    // .ecommerceImg {
-                                    //       width: 16.45vw;
-                                    //       position: relative;
-                                    //       top: -10.41vw;
-                                    //       left: 11.2vw;
-                                    //       filter: grayscale(100%);
-                                    //       transition: 300ms;
-                                    // }
-                                    // .foodAppImg {
-                                    //       width: 16.45vw;
-                                    //       position: relative;
-                                    //       top: -6.51vw;
-                                    //       left: 13.54vw;
-                                    //       filter: grayscale(100%);
-                                    //       transition: 300ms;
-                                    // }
-                                    // .weatherAppImg {
-                                    //       width: 16.45vw;
-                                    //       position: relative;
-                                    //       top: 6.25vw;
-                                    //       left: -17.45vw;
-                                    //       filter: grayscale(100%);
-                                    //       transition: 300ms;
-                                    // }
 
-                                    // ////
 
-                                    // .ecommerceImg1 {
-                                    //       width: 16.45vw;
-                                    //       position: relative;
-                                    //       top: 10.41vw;
-                                    //       left: -15.10vw;
-                                    //       filter: grayscale(100%);
-                                    //       transition: 300ms;
-                                    // }
-                                    // .foodAppImg1 {
-                                    //       width: 16.45vw;
-                                    //       position: relative;
-                                    //       top: -27.08vw;
-                                    //       left: -58.85vw;
-                                    //       filter: grayscale(100%);
-                                    //       transition: 300ms;
-                                    // }
-                                    // .weatherAppImg1 {
-                                    //       width: 16.45vw;
-                                    //       position: relative;
-                                    //       top: -23.43vw;
-                                    //       left: -56.51vw;
-                                    //       filter: grayscale(100%);
-                                    //       transition: 300ms;
-                                    // }
 
-                                    // ////
+@media only screen and (min-width: 1366px) {
+      .page2Container {
+            flex-direction: row;
+      }
+      .textPortfolio {
+            font-size: 6vw;
+            margin-left: 8vw;
+            margin-top: 0px;
+      }
+      .linea1Page2 {
+            width: 30vw;
+            border-top: #ff4d5a 0.6vw solid;
+            margin-left: 3vw;
+      }
+      .linea2Page2 {
+            width: 30vw;
+            border-top: #ff4d5a 0.6vw solid;
+            border-radius: 5px;
+            margin-left: 7vw;
+            margin-bottom: 1vw;
+      }
+      .btnProyectos {
+            border-radius: 50px;
+            width: 15vw;
+            margin-left: 10vw;
+      }
+      .imagenPage2 {
+            height: 100vh;
+            width: 70%;
+            display: flex;
+            background-attachment: local;
+            justify-content: center;
+            align-items: center;
+            z-index: 25;
+            overflow: hidden;
+            padding-left: 95vw;
+      }
+      .ecommerceImg {
+            width: 16.45vw;
+            position: relative;
+            top: -10.41vw;
+            left: 11.2vw;
+            filter: grayscale(100%);
+            transition: 300ms;
+      }
+      .foodAppImg {
+            width: 16.45vw;
+            position: relative;
+            top: -6.51vw;
+            left: 13.54vw;
+            filter: grayscale(100%);
+            transition: 300ms;
+      }
+      .weatherAppImg {
+            width: 16.45vw;
+            position: relative;
+            top: 6.25vw;
+            left: -17.45vw;
+            filter: grayscale(100%);
+            transition: 300ms;
+      }
 
-                                    // .ecommerceImg2 {
-                                    //       width: 16.45vw;
-                                    //       position: relative;
-                                    //       top: -19.79vw;
-                                    //       left: -53.90vw;
-                                    //       filter: grayscale(100%);
-                                    //       transition: 300ms;
-                                    // }
-                                    // .foodAppImg2 {
-                                    //       width: 16.45vw;
-                                    //       position: relative;
-                                    //       top: 13.8vw;
-                                    //       left: -61.98vw;
-                                    //       filter: grayscale(100%);
-                                    //       transition: 300ms;
-                                    // }
-                                    // .weatherAppImg2 {
-                                    //       width: 16.45vw;
-                                    //       position: relative;
-                                    //       top: -3.125vw;
-                                    //       left: -82.55vw;
-                                    //       filter: grayscale(100%);
-                                    //       transition: 300ms;
-                                    // }
+      ////
 
-                                    // ////
+      .ecommerceImg1 {
+            width: 16.45vw;
+            position: relative;
+            top: 10.41vw;
+            left: -15.1vw;
+            filter: grayscale(100%);
+            transition: 300ms;
+      }
+      .foodAppImg1 {
+            width: 16.45vw;
+            position: relative;
+            top: -27.08vw;
+            left: -58.85vw;
+            filter: grayscale(100%);
+            transition: 300ms;
+      }
+      .weatherAppImg1 {
+            width: 16.45vw;
+            position: relative;
+            top: -23.43vw;
+            left: -56.51vw;
+            filter: grayscale(100%);
+            transition: 300ms;
+      }
 
-                                    // .ecommerceImg3 {
-                                    //       width: 16.45vw;
-                                    //       position: relative;
-                                    //       top: 10.41vw;
-                                    //       left: -15.1vw;
-                                    //       filter: grayscale(100%);
-                                    //       transition: 300ms;
-                                    // }
-                                    // .foodAppImg3 {
-                                    //       width: 16.45vw;
-                                    //       position: relative;
-                                    //       top: 22.91vw;
-                                    //       left: -144.89vw;
-                                    //       filter: grayscale(100%);
-                                    //       transition: 300ms;
-                                    // }
-                                    // .weatherAppImg3 {
-                                    //       width: 16.45vw;
-                                    //       position: relative;
-                                    //       top: 27.08vw;
-                                    //       left: -142.6vw;
-                                    //       filter: grayscale(100%);
-                                    //       transition: 300ms;
-                                    // }
+      ////
 
-                                    // .ecommerceImg:hover,
-                                    // .foodAppImg:hover,
-                                    // .weatherAppImg:hover,
-                                    // .ecommerceImg1:hover,
-                                    // .foodAppImg1:hover,
-                                    // .weatherAppImg1:hover,
-                                    // .ecommerceImg2:hover,
-                                    // .foodAppImg2:hover,
-                                    // .weatherAppImg2:hover,
-                                    // .ecommerceImg3:hover,
-                                    // .foodAppImg3:hover,
-                                    // .weatherAppImg3:hover {
-                                    //       filter: grayscale(0%) !important;
-                                    //       transition: 300ms;
-                                    // }
+      .ecommerceImg2 {
+            width: 16.45vw;
+            position: relative;
+            top: -19.79vw;
+            left: -53.9vw;
+            filter: grayscale(100%);
+            transition: 300ms;
+      }
+      .foodAppImg2 {
+            width: 16.45vw;
+            position: relative;
+            top: 13.8vw;
+            left: -61.98vw;
+            filter: grayscale(100%);
+            transition: 300ms;
+      }
+      .weatherAppImg2 {
+            width: 16.45vw;
+            position: relative;
+            top: -3.125vw;
+            left: -82.55vw;
+            filter: grayscale(100%);
+            transition: 300ms;
+      }
 
+      ////
+
+      .ecommerceImg3 {
+            width: 16.45vw;
+            position: relative;
+            top: 10.41vw;
+            left: -15.1vw;
+            filter: grayscale(100%);
+            transition: 300ms;
+      }
+      .foodAppImg3 {
+            width: 16.45vw;
+            position: relative;
+            top: 22.91vw;
+            left: -144.89vw;
+            filter: grayscale(100%);
+            transition: 300ms;
+      }
+      .weatherAppImg3 {
+            width: 16.45vw;
+            position: relative;
+            top: 27.08vw;
+            left: -142.6vw;
+            filter: grayscale(100%);
+            transition: 300ms;
+      }
+
+      .ecommerceImg:hover,
+      .foodAppImg:hover,
+      .weatherAppImg:hover,
+      .ecommerceImg1:hover,
+      .foodAppImg1:hover,
+      .weatherAppImg1:hover,
+      .ecommerceImg2:hover,
+      .foodAppImg2:hover,
+      .weatherAppImg2:hover,
+      .ecommerceImg3:hover,
+      .foodAppImg3:hover,
+      .weatherAppImg3:hover {
+            filter: grayscale(0%) !important;
+            transition: 300ms;
+      }
+}

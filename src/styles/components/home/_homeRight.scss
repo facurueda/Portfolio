@@ -52,7 +52,7 @@
 .homeEngranaje2{
       position: relative;
       width: 4vw;
-      z-index: -1;
+      z-index: 1;
       top: -29vw;
       left: -5%;
 }
@@ -70,4 +70,49 @@
       width: 10vw;
       top: -51vw;
       left: 48%;
+}
+// * Pantallas Computadoras * //
+
+@media only screen and (min-width: 1366px) {
+      .HomeImgContainer{
+            margin-top: 10vw;
+      }
+      .homePantalla{
+            left: -10%;
+            
+      }
+      
+      .homePersona{
+            left: -10%;
+      }
+      
+      
+      .homeCode{
+            top: -45vw;
+            left: 25%;
+      }
+      
+      .homeEngranaje1{
+            top: -51vw;
+            left: 25%;
+      }
+      .homeEngranaje2{
+            top: -42vw;
+            left: 50%;
+      }
+      
+      .homeTextLeft{
+            position: relative;
+            width: 9vw;
+            z-index: 2;
+            top: -41vw;
+            left: -42%;
+      }
+      
+      .homeTextTop{
+            position: relative;
+            width: 10vw;
+            top: -51vw;
+            left: -13%;
+      }
 }

@@ -45,6 +45,7 @@
       left: -11vw;
       top: -33.5vw;
 }
+
 .btnContacto{
       background-color: #ff4d5a;
       border: none;
@@ -67,12 +68,6 @@
 
 }
 
-// .curriculumContainer{
-//       height: 100vh;
-//       width: 80%;
-//       overflow: hidden;
-// }
-
 .ImagenCurriculum{
       height: 100vw;
       filter: grayscale(100%);
@@ -86,4 +81,53 @@
 .ImagenCurriculum:hover{
       filter: grayscale(0%) !important;
       transition: 300ms;
+}
+
+@media only screen and (min-width: 700px) {
+      .textContacto{
+            top: -40vw;
+      }
+      .linea1Page3{
+            top: -40vw;
+      }
+      .linea2Page3{
+            top: -40vw;
+      }
+      .btnContacto{
+            margin-top: -35vw;
+      }
+    }
+
+@media only screen and (min-width: 1366px) {
+      .ImagenCurriculum{
+            height: 80vw;
+            top: -25vw;
+            left: 40vw;
+      }
+      .textContacto{
+            font-size: 6vw;
+            margin-left: 8vw;
+            top: -73vw;
+      }
+      .linea1Page3 {
+            width: 27vw;
+            border-top: #ff4d5a 0.6vw solid;
+            left: -23.5vw;
+            top: -73vw;
+      }
+      .linea2Page3 {
+            width: 27vw;
+            border-top: #ff4d5a 0.6vw solid;
+            margin-left: -20vw;
+            left: -11vw;
+            top: -73vw;
+      }
+      .btnContacto{
+            font-size: 2.5vw;
+            width: 35vw;
+            height: 6vw;
+            margin-top: -65vw;
+            margin-left: -46vw;
+      }
+      
 }

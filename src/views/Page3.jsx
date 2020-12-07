@@ -16,7 +16,7 @@ const Page3 = () => {
                               className="btnContacto"
                               onClick={(e) => {
                                     window.open(
-                                          "https://drive.google.com/file/d/1rfQGCEhIdsqongxtJsofM9VZGGMPEePK/view"
+                                          "https://drive.google.com/file/d/1H1ig_U4M2WXjp_VdNClzp34242VLuxTv/view"
                                     );
                               }}
                         >
