@@ -21,7 +21,7 @@ const Background = () => {
                                     },
                               }}
                         >
-                              <img src={Stars} className="starsBackground" />
+                              <img src={Stars} alt='estrellas' className="starsBackground" />
                         </ParallaxMousemove.Layer>
                         <div className="backgroundImage">
                               <ParallaxMousemove.Layer

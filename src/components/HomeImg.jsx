@@ -5,6 +5,7 @@ import Engranaje from "../assets/homeBackground/engranaje.png";
 import Code from "../assets/homeBackground/code.png";
 import TextLeft from "../assets/homeBackground/textLeft.png";
 import TextTop from "../assets/homeBackground/textTop.png";
+import Flechas from '../assets/homeBackground/flechas.svg';
 import anime from "animejs/lib/anime.es.js";
 
 const HomeImg = () => {
@@ -18,6 +19,7 @@ const HomeImg = () => {
                         ".homeTextTop",
                         ".homeEngranaje1",
                         ".homeEngranaje2",
+                        ".flechasBackground",
                   ],
 
                   direction: "reverse",
@@ -35,6 +37,13 @@ const HomeImg = () => {
                               loop: true,
                               duration: 20000,
                               widht: "100%",
+                        });
+                        anime({
+                              targets: [".flechasBackground"],
+                              easing: "linear",
+                              direction: "reverse",
+                              loop: true,
+                              translateY:['25px', '0'],
                         });
                   },
             });
@@ -66,6 +75,7 @@ const HomeImg = () => {
                               className="homeTextLeft"
                         />
                         <img src={TextTop} alt="img" className="homeTextTop" />
+                        <img src={Flechas} alt="flechas" className="flechasBackground"/>
                   </div>
             </div>
       );

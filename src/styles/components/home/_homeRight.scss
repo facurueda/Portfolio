@@ -71,6 +71,12 @@
       top: -51vw;
       left: 48%;
 }
+.flechasBackground{
+      position: fixed;
+      width: 8vw;
+      top: 28.5%;
+      left: 10%;
+}
 // * Pantallas Computadoras * //
 
 @media only screen and (min-width: 1366px) {
@@ -80,6 +86,11 @@
       .homePantalla{
             left: -10%;
             
+      }
+
+      .flechasBackground{
+            top: 26%;
+            left: 28%;
       }
       
       .homePersona{
